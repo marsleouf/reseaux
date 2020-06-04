@@ -68,6 +68,8 @@ IOU1(config-if)#exit
 
 Les VLAN 10 et 20 sont en mode trunk entre les switchs :
 
+![](./images/trunks.gif)
+
 ```bash
 IOU1(config)#interface Ethernet0/0
 IOU1(config-if)#switchport trunk encapsulation dot1q
@@ -78,6 +80,8 @@ IOU1(config)#exit
 ```
 
 Puis si t'as bien lu le tp4, qu'est ce qui viens après des configs ? Les les les ??? Les VE-RI-FI-CA-TIONS !
+
+![](./images/clair.gif)
 
 Est ce que les admins peuvent toujours se ping ?
 
@@ -194,6 +198,8 @@ IOU1(config-if)#exit
 ```
 
 Et on switch ("switch" mdrrr tu l'as ? t'as compris ?) les vlans 10 et 20 en mode trunk :
+
+![](./images/trunks.gif)
 
 ```bash
 IOU1(config)#interface Ethernet0/0
@@ -486,6 +492,8 @@ IOU3(config)#ip dhcp snooping vlan 30
 ```
 
 On autorise le Snoopy :
+
+![](./images/snoopy.gif)
 
 ```bash
 IOU3(config)#interface Ethernet 0/3
